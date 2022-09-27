@@ -2,12 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>0.5.0</Version>
+    <RepositoryUrl>https://github.com/Qrist0ph/AspFileSystemIdentity</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.3" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.9" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    
   </ItemGroup>
 
 </Project>
