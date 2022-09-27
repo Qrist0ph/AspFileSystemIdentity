@@ -1,0 +1,5 @@
+.vs/
+AspNetCore.Identity.FileSystem/bin/
+AspNetCore.Identity.FileSystem/obj/
+AuthentificationTest/bin/
+AuthentificationTest/obj/
