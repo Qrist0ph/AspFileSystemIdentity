@@ -7,6 +7,8 @@ ASP.NET Core Identity by default makes use of the Entity Framework and a databas
 # Usage
 Have a look at my blog post [here](https://yaico.de/blog/storing-asp-net-identity-in-json-files/)
 
+Find the NuGet Package [here](https://www.nuget.org/packages/AspNetCore.Identity.FileSystem)
+
 **First** modify method **ConfigureServices** in your **Startup.cs** like this
 Replace this
 ```
