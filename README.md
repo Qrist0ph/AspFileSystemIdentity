@@ -5,6 +5,8 @@ A plain and simple JSON File storage for ASP.NET Core Identity
 ASP.NET Core Identity by default makes use of the Entity Framework and a database for storing Identity data. When using this library all user data is stored in plain json file.
 
 # Usage
+Have a look at my blog post [here](https://yaico.de/blog/storing-asp-net-identity-in-json-files/)
+
 **First** modify method **ConfigureServices** in your **Startup.cs** like this
 Replace this
 ```
