@@ -19,6 +19,17 @@ namespace AuthentificationTest
 
         public IConfiguration Configuration { get; }
 
+        /// <summary>
+        /// Just scaffolding code for an email sender
+        /// </summary>
+        class EmailSender : IEmailSender
+        {
+            public async Task SendEmailAsync(string email, string subject, string message)
+            {
+                var htmlContent = message;
+            }
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -70,11 +81,5 @@ namespace AuthentificationTest
         }
     }
 
-    public class EmailSender : IEmailSender
-    {
-        public async Task SendEmailAsync(string email, string subject, string message)
-        {
-            var htmlContent = message;
-        }
-    }
+     
 }

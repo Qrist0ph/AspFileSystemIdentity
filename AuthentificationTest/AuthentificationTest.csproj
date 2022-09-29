@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>aspnet-AuthentificationTest-64B5CD00-BB77-44D2-8DB8-D2013D6FD4B5</UserSecretsId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A plain and simple JSON File storage for ASP.NET Core Identity</Description>
+    <Authors>Qrist0ph</Authors>
+    <PackageId>AspFileSystemIdentity</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
